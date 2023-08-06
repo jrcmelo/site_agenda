@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="icon" href="./assets/images/logo.png" type="image" size="16x16">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@200&family=Roboto:wght@400;700&family=Victor+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/images/logo.png" alt="Agenda de anotação" size="20x20">
+            <h1>Agenda de contatos</h1>
+        </header>
+        <form>
+            <input type="text" required placeholder="Nome do contato" />
+            <input type="tel" required placeholder="Numero do contato" /> <!--#TODO Validações de ddd, se tem o 9 na frente e se tem 8 numeros em seguida. Editar numero para ter '-' entre os 8 numeros. Ex: (79) 99100-2451-->
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do contato
+                    </th>
+                    <th>
+                        Numero do contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Robert</td>
+                    <td>(79) 99100-2451</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Contatos adicionados: </td>
+                    <td>1</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
