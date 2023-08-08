@@ -32,16 +32,13 @@ header h1 {
     margin: 0 auto;
 }
 
-
-/*
-#FIXME O espaçamento não está sendo criado entre os inputs e entre o button.
-*/
 form { 
     display: flex;
     max-width: 640px;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 56px;
+    
 }
 
 form input {
@@ -50,6 +47,7 @@ form input {
     border: none;
     border-bottom: 2px solid #0B121E;
     padding: 8px;
+    margin-right: 8px;
 }
 
 form button {
